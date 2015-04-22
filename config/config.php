@@ -35,11 +35,20 @@ defined("ROOT_PATH")
     defined("VIEWS_DIR")
      || define("VIEWS_DIR","views");
 
+     defined("CONTROLLER_POSTFIX")
+           || define("CONTROLLER_POSTFIX","Controller");
+
+    defined("ACTION_PREFIX")
+        || define("ACTION_PREFIX","action");
+
      defined("CONFIG_DIR")
         || define("CONFIG_DIR","config");
 
         defined("LIB_DIR")
           || define("LIB_DIR","lib");
+
+defined("MODULES_DIR")
+    || define("MODULES_DIR",LIB_DIR.DS.'modules');
 
         defined("TMP_DIR")
          || define("TMP_DIR","tmp");
@@ -60,6 +69,7 @@ set_include_path(implode(PATH_SEPARATOR,array(
     realpath(ROOT_PATH.DS.CONFIG_DIR),
     realpath(ROOT_PATH.DS.LIB_DIR),
     realpath(ROOT_PATH.DS._SMARTY_DIR_),
+    realpath(ROOT_PATH.DS.MODULES_DIR),
     get_include_path()
 )));
 
