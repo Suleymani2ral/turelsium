@@ -8,5 +8,5 @@
  *
  */
 function actionIndex($smarty,$connection){
-    print_r($smarty);
+    print_r($connection);
 }

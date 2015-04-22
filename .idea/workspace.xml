@@ -4,15 +4,18 @@
     <list default="true" id="7abb0224-599e-4e80-bbb1-17b1b48948f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/IndexController.php" afterPath="$PROJECT_DIR$/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.php" afterPath="$PROJECT_DIR$/www/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="turelsium.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429682890198" ignored="false" />
     <file path="/config.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429686052272" ignored="false" />
-    <file path="/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429689385927" ignored="false" />
+    <file path="/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429706226107" ignored="false" />
     <file path="/core.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429688754151" ignored="false" />
     <file path="/a.dummy" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429685762830" ignored="false" />
-    <file path="/IndexController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429690642108" ignored="false" />
+    <file path="/IndexController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429706233932" ignored="false" />
+    <file path="/dBase.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429705663722" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,47 +34,7 @@
     <favorites_list name="turelsium" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="41" selection-start="896" selection-end="896" vertical-scroll-proportion="-3.9285715">
-              <folding>
-                <marker date="1429688547368" expanded="true" signature="2002:2007" placeholder="..." />
-                <marker date="1429688547368" expanded="true" signature="2002:2027" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="215" selection-end="215" vertical-scroll-proportion="-7.225806">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.5263158">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateCheck.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/StateCheck.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="8" selection-start="801" selection-end="801" vertical-scroll-proportion="-26.193548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -95,6 +58,7 @@
         <option value="$PROJECT_DIR$/lib/StateCheck.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/config/dBase.php" />
       </list>
     </option>
   </component>
@@ -104,6 +68,22 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -263,14 +243,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -345,34 +325,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="41" selection-start="896" selection-end="896" vertical-scroll-proportion="-3.9285715">
-          <folding>
-            <marker date="1429688547368" expanded="true" signature="2002:2007" placeholder="..." />
-            <marker date="1429688547368" expanded="true" signature="2002:2027" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/StateCheck.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="801" selection-end="801" vertical-scroll-proportion="-26.193548">
+        <state line="7" column="1" selection-start="175" selection-end="175" vertical-scroll-proportion="0.15789473">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.php">
+    <entry file="file://$PROJECT_DIR$/config/stroyka.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="215" selection-end="215" vertical-scroll-proportion="-7.225806">
+        <state line="5" column="38" selection-start="130" selection-end="130" vertical-scroll-proportion="0.28688523">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.25375938">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.5263158">
+        <state line="10" column="23" selection-start="145" selection-end="145" vertical-scroll-proportion="0.5263158">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="246" selection-end="246" vertical-scroll-proportion="0.47368422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="26" selection-start="927" selection-end="927" vertical-scroll-proportion="1.0295858">
+          <folding>
+            <marker date="1429688547368" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1429688547368" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
