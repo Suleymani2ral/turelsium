@@ -7,3 +7,6 @@
  * 
  *
  */
+function actionIndex($smarty,$connection){
+    print_r($smarty);
+}

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7abb0224-599e-4e80-bbb1-17b1b48948f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/IndexController.php" afterPath="$PROJECT_DIR$/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.php" afterPath="$PROJECT_DIR$/www/index.php" />
     </list>
     <ignored path="turelsium.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429682890198" ignored="false" />
     <file path="/config.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429686052272" ignored="false" />
-    <file path="/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429688762073" ignored="false" />
+    <file path="/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429689385927" ignored="false" />
     <file path="/core.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429688754151" ignored="false" />
     <file path="/a.dummy" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429685762830" ignored="false" />
+    <file path="/IndexController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429690642108" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="9" selection-end="51" vertical-scroll-proportion="0.10526316">
+            <state line="8" column="26" selection-start="215" selection-end="215" vertical-scroll-proportion="-7.225806">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.5263158">
               <folding />
             </state>
           </provider>
@@ -83,8 +93,8 @@
         <option value="$PROJECT_DIR$/lib/modules/StateCheck.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/lib/StateCheck.php" />
-        <option value="$PROJECT_DIR$/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/controllers/IndexController.php" />
       </list>
     </option>
   </component>
@@ -345,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="0.36842105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/StateCheck.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="8" selection-start="801" selection-end="801" vertical-scroll-proportion="-26.193548">
@@ -361,7 +364,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="9" selection-end="51" vertical-scroll-proportion="0.10526316">
+        <state line="8" column="26" selection-start="215" selection-end="215" vertical-scroll-proportion="-7.225806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.5263158">
           <folding />
         </state>
       </provider>
