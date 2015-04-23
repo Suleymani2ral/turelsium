@@ -1,5 +1,67 @@
 @charset "UTF-8";
 
+@font-face{
+
+    font-family:LucidaSans;
+
+    src: url(../../../fonts/lucidasansuni.ttf);
+
+}
+
 body {
-    background: #000;
+margin: 0;
+padding: 0;
+font-family: 'LucidaSans',sans-serif;
+
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background:#424b5f;
+
+}
+#opt_line {
+   float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#opt_line a{
+    margin-left:5px;
+    padding:5px;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+#reg_but{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+#reg_but a{
+    background-color: #65C178;
+    padding:2px 20px;
+
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #3EC178;
+    font-size: 12px;
+
+}
+#top_left{
+    width: 200px;
+    height: 50px;
+    float: left;
+    background: #616d84;
+}
+#sidebar{
+    float: left;
+    width: 200px;
+    min-height: 1000px;
+    background: #424b5f;
 }
