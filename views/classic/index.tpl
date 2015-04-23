@@ -6,7 +6,21 @@
     <link rel="stylesheet" type="text/css" href="{$SmartyWebPath}css/style.css">
 </head>
 <body>
+
 <header>
+<div id="link_line">
+    <ul>
+        <li><a href="#">Haqqımızda</a></li>
+        <li><a href="#">Reklam xidməti</a></li>
+        <li><a href="#">Bizimlə əlaqə</a></li>
+        <li><a href="#">Statistika</a></li>
+        <li><a href="#">Partnyorlar</a></li>
+    </ul>
+</div>
+
+
+<div id="head_all">
+
     <div id="top_left">
     <img src="../../../images/elements/logo.png" alt="logo">
     </div>
@@ -24,8 +38,8 @@
         <a href="#">ŞİRKƏTLƏR</a>
     </div>
 
+</div>
 </header>
-
 <div id="sidebar">
 
 </div>

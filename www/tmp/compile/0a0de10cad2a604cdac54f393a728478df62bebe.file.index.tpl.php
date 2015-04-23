@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-23 20:43:00
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-23 21:24:56
          compiled from "..\views\classic\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:140455538d7829581e4-23394992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0a0de10cad2a604cdac54f393a728478df62bebe' => 
     array (
       0 => '..\\views\\classic\\index.tpl',
-      1 => 1429803778,
+      1 => 1429806293,
       2 => 'file',
     ),
   ),
@@ -34,7 +34,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 css/style.css">
 </head>
 <body>
+
 <header>
+<div id="link_line">
+    <ul>
+        <li><a href="#">Haqqımızda</a></li>
+        <li><a href="#">Reklam xidməti</a></li>
+        <li><a href="#">Bizimlə əlaqə</a></li>
+        <li><a href="#">Statistika</a></li>
+        <li><a href="#">Partnyorlar</a></li>
+    </ul>
+</div>
+
+
+<div id="head_all">
+
     <div id="top_left">
     <img src="../../../images/elements/logo.png" alt="logo">
     </div>
@@ -52,8 +66,8 @@ css/style.css">
         <a href="#">ŞİRKƏTLƏR</a>
     </div>
 
+</div>
 </header>
-
 <div id="sidebar">
 
 </div>
