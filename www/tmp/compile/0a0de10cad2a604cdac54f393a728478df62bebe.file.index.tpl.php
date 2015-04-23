@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-23 19:47:25
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-23 20:11:14
          compiled from "..\views\classic\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:140455538d7829581e4-23394992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0a0de10cad2a604cdac54f393a728478df62bebe' => 
     array (
       0 => '..\\views\\classic\\index.tpl',
-      1 => 1429800444,
+      1 => 1429801869,
       2 => 'file',
     ),
   ),
@@ -38,11 +38,12 @@ css/style.css">
     <div id="top_left">
     <img src="../../../images/elements/logo.png" alt="logo">
     </div>
+    <input type="submit" class="sign_but" value="">
     <div id="reg_but">
         <a href="#">Qeydiyyat</a>
         <input type="text" placeholder="login" class="inp_stl">
         <input type="text" placeholder="pass" class="inp_stl">
-        <input type="submit" id="sign_but" value="Daxil ol">
+
     </div>
     <div id="opt_line">
         <a href="#">ƏMLAK-ELAN</a>
