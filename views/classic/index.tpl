@@ -12,6 +12,9 @@
     </div>
     <div id="reg_but">
         <a href="#">Qeydiyyat</a>
+        <input type="text" placeholder="login" class="inp_stl">
+        <input type="text" placeholder="pass" class="inp_stl">
+        <input type="submit" id="sign_but" value="Daxil ol">
     </div>
     <div id="opt_line">
         <a href="#">ƏMLAK-ELAN</a>
