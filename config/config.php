@@ -33,7 +33,7 @@ defined("ROOT_PATH")
       || define("MODELS_DIR","models");
 
     defined("VIEWS_DIR")
-     || define("VIEWS_DIR","views");
+     || define("VIEWS_DIR","../views");
 
      defined("CONTROLLER_POSTFIX")
            || define("CONTROLLER_POSTFIX","Controller");
@@ -46,6 +46,9 @@ defined("ROOT_PATH")
 
         defined("LIB_DIR")
           || define("LIB_DIR","lib");
+
+        defined("TEMPLATE_POSTFIX")
+            || define("TEMPLATE_POSTFIX",".tpl");
 
 defined("MODULES_DIR")
     || define("MODULES_DIR",LIB_DIR.DS.'modules');

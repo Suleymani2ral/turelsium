@@ -30,3 +30,7 @@ function getAction() {
     else
         return ACTION_PREFIX.$default;
 }
+
+function loadTemplate($smarty,$template) {
+    $smarty->display($template.TEMPLATE_POSTFIX);
+}

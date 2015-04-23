@@ -8,5 +8,6 @@
  *
  */
 function actionIndex($smarty,$connection){
-    print_r($connection);
+   loadTemplate($smarty,'index');
+   // print_r($connection);
 }

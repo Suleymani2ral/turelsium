@@ -4,7 +4,7 @@
  */
 $host  = "localhost";
 $user = "root";
-$pass = "4914433";
+$pass = "";
 $database = "db_stroyka";
 
 $connection = mysqli_connect($host,$user,$pass,$database);
