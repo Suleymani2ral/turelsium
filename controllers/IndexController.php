@@ -8,6 +8,8 @@
  *
  */
 function actionIndex($smarty,$connection){
+
+  $smarty->assign('myPageTitle','Index page');
    loadTemplate($smarty,'index');
    // print_r($connection);
 }

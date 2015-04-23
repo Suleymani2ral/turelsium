@@ -62,7 +62,14 @@ defined("MODULES_DIR")
          defined("_SMARTY_DIR_")
                || define("_SMARTY_DIR_",LIB_DIR.DS.'Smarty'.DS.'libs'.DS);
 
+$template = "classic";
+
+defined("SMARTY_WEB_PATH")
+    || define("SMARTY_WEB_PATH","../../../tmp/{$template}/");
+
    //>end define
+
+
 
 //include all folders for easely use
 set_include_path(implode(PATH_SEPARATOR,array(
@@ -97,6 +104,6 @@ require_once "Smarty.class.php";
     $smarty->setCacheDir(TMP_DIR.DS.'cache');
     $smarty->setCompileDir(TMP_DIR.DS.'compile');
     //>end smarty config
-     
+     $smarty->assign('SmartyWebPath',SMARTY_WEB_PATH);
 
 
