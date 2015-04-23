@@ -8,7 +8,7 @@
 <body>
 <header>
     <div id="top_left">
-
+    <img src="../../../images/elements/logo.png" alt="logo">
     </div>
     <div id="reg_but">
         <a href="#">Qeydiyyat</a>
