@@ -12,7 +12,7 @@
     </div>
     <input type="submit" class="sign_but" value="">
     <div id="reg_but">
-        <a href="#">Qeydiyyat</a>
+        <a href="#">QEYDIYYAT</a>
         <input type="text" placeholder="login" class="inp_stl">
         <input type="text" placeholder="pass" class="inp_stl">
 
