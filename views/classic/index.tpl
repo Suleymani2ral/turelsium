@@ -26,9 +26,9 @@
     </div>
     <input type="submit" class="sign_but" value="">
     <div id="reg_but">
-        <a href="#">QEYDIYYAT</a>
-        <input type="text" placeholder="login" class="inp_stl">
-        <input type="text" placeholder="pass" class="inp_stl">
+        <a href="#">Q E Y D I Y Y A T</a>
+        <input type="text" placeholder="login" id="login" class="inp_stl">
+        <input type="text" placeholder="pass" id="pass" class="inp_stl">
 
     </div>
     <div id="opt_line">
@@ -41,7 +41,10 @@
 </div>
 </header>
 <div id="sidebar">
+    <div id="get_center">
+<a href="/" id="add_item">Elan Yerləşdir</a>
+    </div>
 
-</div>
+    </div>
 </body>
 </html>

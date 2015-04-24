@@ -18,7 +18,7 @@ font-family: 'LucidaSans',sans-serif;
 #head_all {
     height: 50px;
     width: 100%;
-    background: #2C3033;
+    background: #616d84;
 
 }
 
@@ -26,6 +26,7 @@ font-family: 'LucidaSans',sans-serif;
     height: 20px;
     width: 100%;
     background:#dedede ;
+    border-top: 2px solid #1ba8ed;
 }
 
 #link_line ul {
@@ -62,12 +63,10 @@ font-family: 'LucidaSans',sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    font-weight: bold;
-
 }
 
 #opt_line a:hover{
-    background: #15B474;
+    background: #1BA8ED;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -85,14 +84,14 @@ font-family: 'LucidaSans',sans-serif;
 
 
 .inp_stl{
-    width: 100px;
+    width: 85px;
     height: 22px;
     border-style: none;
-    border: 1px solid #5e676d;
+    border: 2px solid #4b5c7d;
     border-radius: 2px;
-    background: #505253;
+    background:#3c4963;
     color: #dedede;
-    padding: 0 5px;
+    padding: 0 0 0 25px;
     font-weight: bold;}
 
 .sign_but{
@@ -104,6 +103,23 @@ font-family: 'LucidaSans',sans-serif;
     float: right;
 }
 
+input#login{
+    background: url(../../../images/elements/user.png) #3c4963 no-repeat 3px 50%;
+}
+
+input#pass{
+    background: url(../../../images/elements/lock.png) #3c4963 no-repeat 3px 50%;
+}
+
+#reg_but a:hover{
+    background: #1BA8ED;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 #reg_but a{
     padding: 2px 20px;
     text-decoration: none;
@@ -117,11 +133,33 @@ font-family: 'LucidaSans',sans-serif;
     width: 200px;
     height: 50px;
     float: left;
-    background: #24262a;
+    background: #3c4963;
 }
 #sidebar{
     float: left;
     width: 200px;
     min-height: 1000px;
-    background: #2C3033;
+    background: #616d84;
+}
+
+#add_item {
+    padding: 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: #42e66c;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#add_item:hover{
+    background: #30cd58;
+}
+#get_center {
+   text-align: center;
+    margin-top: 15px;
 }

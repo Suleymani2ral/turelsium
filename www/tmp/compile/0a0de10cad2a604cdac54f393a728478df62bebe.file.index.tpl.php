@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-23 21:24:56
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-24 02:24:03
          compiled from "..\views\classic\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:140455538d7829581e4-23394992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0a0de10cad2a604cdac54f393a728478df62bebe' => 
     array (
       0 => '..\\views\\classic\\index.tpl',
-      1 => 1429806293,
+      1 => 1429824242,
       2 => 'file',
     ),
   ),
@@ -54,9 +54,9 @@ css/style.css">
     </div>
     <input type="submit" class="sign_but" value="">
     <div id="reg_but">
-        <a href="#">QEYDIYYAT</a>
-        <input type="text" placeholder="login" class="inp_stl">
-        <input type="text" placeholder="pass" class="inp_stl">
+        <a href="#">Q E Y D I Y Y A T</a>
+        <input type="text" placeholder="login" id="login" class="inp_stl">
+        <input type="text" placeholder="pass" id="pass" class="inp_stl">
 
     </div>
     <div id="opt_line">
@@ -69,7 +69,10 @@ css/style.css">
 </div>
 </header>
 <div id="sidebar">
+    <div id="get_center">
+<a href="/" id="add_item">Elan Yerləşdir</a>
+    </div>
 
-</div>
+    </div>
 </body>
 </html><?php }} ?>
