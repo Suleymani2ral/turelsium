@@ -40,6 +40,8 @@
 
 </div>
 </header>
+
+<div id="content">
 <div id="sidebar">
     <div id="get_center">
 <a href="/" id="add_item">Elan Yerləşdir</a>
@@ -50,7 +52,7 @@
         <a href="#" ><li class="parent_li">Mənzillər <span class="counts">(6754)</span></li></a>
         <a href="#" ><li class="parent_li">Yeni Tikili <span class="counts">(267)</span>
             </li></a>
-                <ul>
+                <ul class="ul_sec_menu">
                     <a href="#"><li><span class="child">-</span> 1 Otaqlı <span class="counts">(322)</span></li></a>
                     <a href="#"><li><span class="child">-</span> 2 Otaqlı <span class="counts">(6213)</span></li></a>
                     <a href="#"><li><span class="child">-</span> 3 Otaqlı <span class="counts">(654)</span></li></a>
@@ -59,7 +61,7 @@
 
         <a href="#" ><li class="parent_li">Köhnə tikili <span class="counts">(544)</span>
             </li></a>
-                <ul>
+                <ul class="ul_sec_menu">
                     <a href="#"><li><span class="child">></span>1 Otaqlı <span class="counts">(899)</span></li></a>
                     <a href="#"><li><span class="child">></span>2 Otaqlı <span class="counts">(349)</span></li></a>
                     <a href="#"><li><span class="child">></span>3 Otaqlı <span class="counts">(112)</span></li></a>
@@ -104,9 +106,23 @@
 </div>-->
     </div>
 
-<div id="content">
-<div id="search_box">
 
+<div id="search_box">
+<div id="search_elems">
+    Mən <select>
+            <option>example</option>
+        </select>
+
+        <select>
+            <option>example</option>
+        </select>
+    istəyirəm , Qiymət <input class="sr_price" type="text" placeholder="min"> - <input class="sr_price" type="text" placeholder="max">
+    AZN,        <select name="search_room">
+                  <option>otaq sayi</option>
+                </select> ,
+    <input type="text" class="sr_field"> - <input type="text" class="sr_field"> m<sup>2</sup>
+     <input id="search_sub" type="submit" value=" A X T A R "> <span>2342 elan</span>
+</div>
 </div>
 </div>
 </body>

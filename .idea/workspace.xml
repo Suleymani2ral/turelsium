@@ -4,7 +4,7 @@
     <list default="true" id="7abb0224-599e-4e80-bbb1-17b1b48948f4" name="Default" comment="" />
     <ignored path="turelsium.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430039059695" ignored="false" />
+    <file path="/Dummy.txt" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430686060317" ignored="false" />
     <file path="/config.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429790095826" ignored="false" />
     <file path="/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429706226107" ignored="false" />
     <file path="/core.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429688754151" ignored="false" />
@@ -12,8 +12,26 @@
     <file path="/IndexController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429789508103" ignored="false" />
     <file path="/dBase.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429705663722" ignored="false" />
     <file path="/StateCheck.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1429788104711" ignored="false" />
-    <file path="/index.tpl" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430100397047" ignored="false" />
-    <file path="/style.css" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430100435757" ignored="false" />
+    <file path="/index.tpl" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430696381462" ignored="false" />
+    <file path="/style.css" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430698506835" ignored="false" />
+    <file path="$PROJECT_DIR$/../../baku.az/controllers/SearchController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430105386151" ignored="false" />
+    <file path="/SearchController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430105369663" ignored="false" />
+    <file path="$PROJECT_DIR$/../../baku.az/models/SearchModel.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430105985717" ignored="false" />
+    <file path="$PROJECT_DIR$/../../abc.az/www/private/stub/PaymentGatewayGoldenpay.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430247940861" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/controller/IndexController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430432546405" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/controller/MymanualController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430478023344" ignored="false" />
+    <file path="/MymanualController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430478023645" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/model/IndexModel.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430435834484" ignored="false" />
+    <file path="/IndexModel.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430434777495" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/model/PartsModel.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430476906591" ignored="false" />
+    <file path="/PartsModel.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430475902257" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/controller/PartsController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430477762415" ignored="false" />
+    <file path="/PartsController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430477547625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/www/index.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430480722875" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/controller/PaymentController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430504971167" ignored="false" />
+    <file path="/PaymentController.php" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430504948033" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cars.az/view/default/show_car.tpl" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430504277664" ignored="false" />
+    <file path="/show_car.tpl" changelist="7abb0224-599e-4e80-bbb1-17b1b48948f4" time="1430504277992" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="20" selection-start="2490" selection-end="2490" vertical-scroll-proportion="-9.617647">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.tpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/classic/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="55" selection-start="1713" selection-end="1713" vertical-scroll-proportion="-6.617647">
+            <state line="123" column="60" selection-start="5535" selection-end="5535" vertical-scroll-proportion="-11.441176">
               <folding />
             </state>
           </provider>
@@ -54,7 +63,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/tmp/classic/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="34" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.8217469">
+            <state line="94" column="24" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.5084112">
               <folding />
             </state>
           </provider>
@@ -63,7 +72,7 @@
       <file leaf-file-name="StateCheck.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/StateCheck.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+            <state line="30" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,6 +82,15 @@
         <entry file="file://$PROJECT_DIR$/www/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="14" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="0" selection-start="2527" selection-end="2527" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
@@ -318,8 +336,8 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -364,14 +382,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27045456" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18939394" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -490,11 +508,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/stroyka.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="130" selection-end="130" vertical-scroll-proportion="0.28688523" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="130" selection-end="130" vertical-scroll-proportion="0.28688523" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dBase.php">
@@ -511,9 +529,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="22" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="23" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.3327645" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/StateCheck.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+        <state line="30" column="22" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -525,37 +553,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="22" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="20" selection-start="2490" selection-end="2490" vertical-scroll-proportion="-9.617647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="23" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.3327645">
+        <state line="109" column="0" selection-start="2527" selection-end="2527" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/classic/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="55" selection-start="1713" selection-end="1713" vertical-scroll-proportion="-6.617647">
+        <state line="123" column="60" selection-start="5535" selection-end="5535" vertical-scroll-proportion="-11.441176">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/tmp/classic/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="34" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.8217469">
+        <state line="94" column="24" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.5084112">
           <folding />
         </state>
       </provider>
