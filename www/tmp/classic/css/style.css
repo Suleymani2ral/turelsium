@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+@font-face{
+
+    font-family:LucidaSans;
+
+    src: url(../../../fonts/lucidasansuni.ttf);
+
+}
+
+@font-face{
+
+    font-family:DejaVuSans;
+
+    src: url(../../../fonts/DejaVuSans.ttf);
+
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'DejaVuSans',sans-serif;
+
+}
+
+#head_all {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background:#383B42;
+}
+
+#link_line{
+    height: 16px;
+    width: 100%;
+
+    background: #A5D25B;
+    border-top: 2px solid #17181C;
+}
+
+#link_line ul {
+    padding: 0;
+    margin: 0;
+}
+
+#link_line ul li {
+    float: left;
+    font-size: 10px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+#link_line ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 16px;
+    text-shadow: #222 1px 1px 1px;
+}
+
+#link_line ul li a:hover{
+    text-decoration: underline;
+    color: #077fcc;
+}
+
+#opt_line {
+   float: right;
+    margin-right: 10px;
+
+}
+
+#search_box {
+    width: 100%;
+    background: #f6f6f6;
+    border-bottom: 1px solid #dedede;
+    margin-left: 150px;
+    padding: 10px ;
+}
+
+#search_elems{
+    font-size: 12px;
+    display: inline-block;
+    color: #A3A3A3;
+
+}
+#search_sub{
+    background:#3E7A1D;
+    text-shadow: #000 1px 1px 1px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #4C9724 !important;
+}
+
+#search_sub:hover{
+    cursor: pointer;
+    background: #4C9724;
+
+}
+
+#search_elems input,select {
+    border-style: none;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding: 0 3px;
+    height: 25px;
+}
+
+.sr_price{
+    width: 65px;
+}
+
+.sr_field{
+    width: 40px;
+}
+
+#opt_line a{
+    margin-left: 5px;
+    padding: 20px 2px 13px 2px;
+    text-shadow: #000 1px 1px 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    height: 50px;
+    border-bottom:3px solid #A5D25B;
+}
+
+#opt_line a:hover{
+    background: #A5D25B;
+    border-bottom:3px solid #84A94A;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#reg_but{
+    float: right;
+    margin-right: 5px;
+    text-shadow: #000 1px 1px 1px;
+    font-weight: bold;
+
+}
+
+.ul_sec_menu {
+    margin: 5px;
+    padding: 5px;
+}
+.inp_stl{
+    width: 85px;
+    height: 19px;
+    border-style: none;
+    border: 1px solid #666;
+    border-radius: 2px;
+    background:#3c4963;
+    color: #dedede;
+    padding: 0 0 0 25px;
+    font-weight: bold;}
+
+.sign_but{
+    width: 30px;
+    height: 50px;
+    border-style: none;
+   background: url(../../../images/elements/sign_in.png);
+    cursor: pointer;
+    float: right;
+}
+
+input#login{
+    background: url(../../../images/elements/user.png) #555 no-repeat 3px 50%;
+}
+
+input#pass{
+    background: url(../../../images/elements/lock.png) #555 no-repeat 3px 50%;
+}
+
+#reg_but a:hover{
+    background: transparent;
+    color: #A5D25B;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#reg_but a{
+    padding: 2px 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #A5D25B;
+    border-radius: 2px;
+    border: 1px solid #A5D25B;
+    font-size: 12px;
+}
+
+#top_left{
+    width: 200px;
+    height: 50px;
+    float: left;
+
+}
+#sidebar{
+    position:absolute;
+    width: 150px;
+    left:0;
+    top: 0;
+    height: 100%;
+    background: #50555F;
+}
+
+#parent_ul{
+    margin: 0;
+    padding: 0 ;
+
+    font-size: 11px;
+
+}
+
+.child{
+    color: #A5D25B;
+}
+#parent_ul li{
+    padding: 3px 10px;
+    margin-bottom:2px ;
+    list-style: none;
+
+}
+
+.parent_li{
+    background: #383B42;
+    border-left: 5px solid #A5D25B;
+
+}
+
+.counts {
+    color: #999;
+}
+#parent_ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#add_item {
+    padding: 5px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: #A5D25B;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 14px;
+    text-shadow: #222 1px 1px 1px;
+}
+
+#add_item:hover{
+    background: #30cd58;
+}
+#get_center {
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#content{
+   position: relative;
+  width:100%;
+   min-height: 1000px;
+}
+#menu_all{
+    text-shadow: #000 1px 1px 1px;
+}
+
+
+.menu_item{
+    border-left:4px solid #1BA8ED ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.menu_item_new{
+    border-left:4px solid #37db79 ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.menu_item_garden{
+    border-left:4px solid #d057ea ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.menu_item_garden span{
+    color: #d057ea;
+}
+
+.menu_item_office{
+    border-left:4px solid #e1ff14 ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.menu_item_office span{
+    color: #e1ff14;
+}
+
+.menu_item_villa{
+    border-left:4px solid #fccc0b ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.menu_item_villa span{
+    color: #fccc0b;
+}
+
+.menu_item_new span{
+    color: #37db79;
+}
+
+.menu_item_aparts{
+    border-left:4px solid #fce14a ;
+    padding: 3px;
+    background: #222;
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+.clearesta{
+    width: 100%;
+    height: 5px;
+}
+.menu_item_aparts:hover {
+    background: #333;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.a_old {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu_item:hover{
+    background: #333;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+.menu_item span {
+    color: #1BA8ED;
+}
